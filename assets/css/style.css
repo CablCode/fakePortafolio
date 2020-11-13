@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto' sans-serif;
+}
+
+header {
+    background-image: url('../img/backgroundheader.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15rem;
+}
+
+h1 {
+    color: #686868;
+    padding-top: 15rem;
+}
+
+span {
+    color:#292929;
+}
+
+header h2 {
+    color: #B2B2B2;
+}
+
+hr {
+    border: none;
+    height: 0.1rem;
+    background-color: #333;
