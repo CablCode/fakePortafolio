@@ -6,7 +6,7 @@ header {
     background-image: url('../img/backgroundheader.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 15rem;
+    padding-bottom: 12rem;
 }
 
 h1 {
@@ -26,3 +26,9 @@ hr {
     border: none;
     height: 0.1rem;
     background-color: #333;
+
+}
+
+.description h3 {
+    font-size: 1.2rem;
+}
