@@ -32,3 +32,7 @@ hr {
 .description h3 {
     font-size: 1.2rem;
 }
+
+.carousel-indicators {
+    top: 100px;
+}
