@@ -22,11 +22,18 @@ header h2 {
     color: #B2B2B2;
 }
 
-hr {
+header hr {
     border: none;
     height: 0.1rem;
     background-color: #333;
 
+}
+
+#about hr {
+    border: none;
+    height: 0.1rem;
+    background-color: #333;
+    margin-bottom: 4rem; 
 }
 
 .description h3 {
@@ -41,6 +48,12 @@ hr {
     color: #ffffff;
     text-decoration: none;
   }
+#work hr {
+    border: none;
+    height: 0.1rem;
+    background-color: #ffffff;
+    margin-bottom: 4rem; 
+}  
 
 .contactSection {
     margin-bottom: 7rem;
