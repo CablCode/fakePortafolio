@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -36,3 +36,12 @@ hr {
 .carousel-indicators {
     top: 100px;
 }
+
+.icons a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+.contactSection {
+    margin-bottom: 7rem;
+}  

@@ -24,16 +24,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#about">About me<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#about">Sobre mi<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#experience">Experience</a>
+                <a class="nav-link" href="#experience">Experiencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#work">Work</a>
+                <a class="nav-link" href="#work">Trabajos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#contact">Contacto</a>
               </li>
             </ul>
           </div>
@@ -44,14 +44,14 @@
     <!--Header-->
     <header class="hero text-light text-center pt-5 mt-5">
         <div class="container">
-          <h1 class="display-2 font-weight-bold">Hi, I´m <span>Alvaro Brante</span></h1>
+          <h1 class="display-2 font-weight-bold">Hola, soy <span>Alvaro Brante</span></h1>
           <hr>
-          <h2 class="display-4 font-weight-bold">Full-stack developer</h2>
+          <h2 class="display-4 font-weight-bold">Desarrollador Full-Stack</h2>
         </div> 
     </header>
 
     <!--Descripcion-->
-    <section class="container mt-5 pb-5 text-center description">
+    <section id="about" class="container mt-5 pb-5 text-center description">
         <h3 class="pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil qui fugit, dolorum asperiores rerum dolor impedit quaerat dolores dignissimos magnam eius hic mollitia rem? Eius officia nam nihil blanditiis sequi.</h3>
         <div class="row">
             <div class="col-md-6 text-left container">
@@ -67,7 +67,7 @@
 
     <!--Experiencia-->
 
-    <div class="container my-5 py-3">
+    <div id="experience" class="container my-5 py-3 d-none d-sm-block d-sm-none d-md-block">
         <div id="blogcarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#blogcarousel" data-slide-to="0" class="active"></li>
@@ -120,7 +120,7 @@
 
     <!--Trabajos-->
 
-    <section class="container-fluid bg-secondary pt-5 pb-5">
+    <section id="work" class="container-fluid bg-secondary pt-5 pb-5">
         <div class="container">
             <h2 class="text-center font-weight-bold text-white mb-5 mt-4">MIS ÚLTIMOS TRABAJOS</h2>
             <div class="card-deck">
@@ -147,25 +147,25 @@
                 </div>
             </div>
             
-            <div class="card-deck mt-5">
+            <div class="card-deck mt-3">
                 <div class="card">
-                <img src="assets/img/meet_coffee.png" class="card-img-top" alt="Meet&Coffee">
-                <div class="card-body">
-                    <h5 class="card-title">Meet&Coffee</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                </div>
-                <div class="card">
-                <img src="assets/img/cuppon.png" class="card-img-top" alt="cuppon">
+                <img src="assets/img/cuppon.png" class="card-img-top" alt="Cuppon">
                 <div class="card-body">
                     <h5 class="card-title">Cuppon</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 </div>
                 <div class="card">
                 <img src="assets/img/ricomida.png" class="card-img-top" alt="Ricomida">
                 <div class="card-body">
                     <h5 class="card-title">Ricomida</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                </div>
+                <div class="card">
+                <img src="assets/img/dmark.png" class="card-img-top" alt="Dmark">
+                <div class="card-body">
+                    <h5 class="card-title">Dmark</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                 </div>
                 </div>
@@ -174,19 +174,21 @@
     </section>
 
     <!--Contacto-->
-    <section class="text-center">
+    <section id="contact" class=" contactSection text-center py-5">
         <h2 class="font-weight-bold mb-5 mt-4">CONTACTO</h2>
+        <p>¿Quieres conocer mas de mi?</p>
+        <a class="typeform-share button" href="https://form.typeform.com/to/NRF18sZI" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#3A7685;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Comenzar</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 
     </section>
 
-    <footer class="icons-section bg-info text-white text-center py-5">
+    <footer class="icons bg-info text-white text-center py-5">
         <div class="row container-fluid">
-            <h2 class="font-weight-bold col-md-5 py-3 pl-5 pay-title">ALVARO</h2>
+            <h2 class="font-weight-bold col-md-5 py-3 pl-5">ALVARO</h2>
             <h2 class="col-md-7">
-            <i class="fab fa-github-square fa-2x mr-3"></i>
-            <i class="fab fa-linkedin fa-2x mr-3"></i>
-            <i class="fab fa-twitter-square fa-2x mr-3"></i>
-            <i class="fab fa-facebook-square fa-2x mr-3"></i>
+                <a href="https://github.com/"><i class="fab fa-github-square fa-2x mr-3"></i>
+                <a href="https://cl.linkedin.com/"><i class="fab fa-linkedin fa-2x mr-3"></i>
+                <a href="https://twitter.com/?lang=es"></a><i class="fab fa-twitter-square fa-2x mr-3"></i>
+                <a href="https://es-la.facebook.com"></a><i class="fab fa-facebook-square fa-2x"></i>
             </h2>      
         </div>
 
